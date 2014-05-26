@@ -13,7 +13,7 @@ include_once ("mimses.php");
 // if $beingParanoid set to true, server will verify the user auth in each request with Persona servers, TODO: otherwise it will be checked once per each 12 requests
 $beingParanoid = false;
 //TODO: keep email adress in BCRYPTED format only 
-$adminEmail = 'mim3dot@gmail.com';
+$adminEmail = 'admin@email.com'; // change this email address to yours (or to admins) email adress!
 $admin_page_address = findAdminPageAddress();
 // this variable will keep the AJAX requested action name;
 $act = '';
